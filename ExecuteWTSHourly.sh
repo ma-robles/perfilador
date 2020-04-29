@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cd /home/perfilador/perfila/
+#this must be in cron!!
+#cd /home/perfilador/perfila/
 
 #currHour=`date +%H`
 currDate=`date +%Y'-'%m'-'%d`

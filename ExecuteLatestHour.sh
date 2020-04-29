@@ -2,7 +2,7 @@
 
 # ----------- Date manipulation -------
 
-cd  /home/perfilador/perfila/
+#cd  /home/perfilador/perfila/
 currHour=`date +%H`
 currDate=`date +%Y'-'%m'-'%d`
 #echo $currDate

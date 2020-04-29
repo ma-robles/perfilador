@@ -16,14 +16,14 @@ import plotutils
 import numpy as np
 import os, sys, getopt
 import re
-from DataContainer import *
+#from DataContainer import *
 from WindTimeSeriesHourly import windTimeSerieshourly
 
 
 host = '132.248.8.31'
 port = 21
 inputFolder = '/perfilador/'  # Folder inside the FTP
-outputFolder = '/home/ftpusers/perfilador/data/graficasd'
+outputFolder = '/home/perfilador/data/graficasd'
 ftp = FTP() 
 ftp.connect(host,port)
 
